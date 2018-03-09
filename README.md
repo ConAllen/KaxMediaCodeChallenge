@@ -1,2 +1,0 @@
-# KaxMediaCodeChallenge
-Coding Challenge

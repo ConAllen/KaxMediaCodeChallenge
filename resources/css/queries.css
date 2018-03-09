@@ -1,0 +1,129 @@
+
+/* big tablet to 1200px (width smaller than the 1140 row) */
+@media only screen and (max-width:1200px){
+
+  .white-logo {
+
+    margin:50px 50px 0px 0px;
+  }
+
+
+}
+
+    .row { padding: 0 5%;}
+
+/* small tablet to big tablets: from 768px to 1023px  */
+@media only screen and (max-width:1023px){
+  body { font-size: 14px;}
+  h1 { font-size: 24px;}
+
+  .footer-text {
+
+    font-size:12px;
+    margin: 60px 20px 0px 0px;
+    line-height: 20px;
+    display:inline-block;
+    font-weight:300;
+  }
+
+}
+
+/* small phones to small tablets: from 481px to 767px  */
+@media only screen and (max-width:767px){
+  body { font-size: 14px;}
+  h1 { font-size: 24px;}
+  .btn:link,
+  .btn:visited {
+
+       font-size: 12px;
+       letter-spacing:1px;
+       word-spacing:7px;
+       height:45px;
+       width:150px;
+  }
+  .features-section .col  {
+          width: 100%;
+          margin: 25px 0 4% 0;
+      }
+  .featureImg {
+    width:100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .white-logo {
+    text-align: right;
+    margin:60px 0px 0px 0px;
+
+  }
+
+  .box-style{
+  height:auto;
+  background-color: #f7f7f7;
+  margin:0;
+  padding-bottom:20px;
+  }
+
+  .footer-section {
+
+  background-color:#383838;
+  margin: 35px 0px 0px 0px;
+  height:200px;
+
+  }
+
+  .footer-text {
+    font-size:10px;
+    font-weight:300;
+
+
+  }
+}
+
+/* small phones: from 0 to 48px  */
+@media only screen and (max-width:480px){
+
+  h1 { font-size: 20px;}
+  body { font-size: 12px;}
+
+
+      .footer-text {
+        font-size:10px;
+        font-weight:300;
+
+      }
+
+      .btn:link,
+      .btn:visited {
+
+           font-size: 12px;
+           letter-spacing:1px;
+           word-spacing:7px;
+           height:50px;
+           width:150px;
+           height:40px;
+      }
+
+
+        .featureImg {
+               width:100%;
+               text-align: center;
+               margin: 0px 0px 0px 0px;
+               z-index: 100;
+             }
+
+      .box-text {
+        font-size: 12px;
+      }
+      .footer-section {
+
+      background-color:#383838;
+      margin: 35px 0px 0px 0px;
+      height:250px;
+
+      }
+      .white-logo {
+        text-align: center;
+        margin:20px 100px 20px 20px;
+      }
+}
