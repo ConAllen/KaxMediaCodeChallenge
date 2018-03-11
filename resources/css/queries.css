@@ -1,7 +1,18 @@
 /* big tablet to 1200px (width smaller than the 1140 row) */
 @media only screen and (max-width:1200px){
 
+  .footer-nav {
+    font-size:11px;
+    float:right;
+    margin-right:180px;
 
+  }
+
+  .row,
+  .hero-text-box { padding: 0 4%; }
+
+
+  section { padding: 25px 0px; }
 
 
 }
@@ -10,23 +21,57 @@
 
 /* small tablet to big tablets: from 768px to 1023px  */
 @media only screen and (max-width:1023px){
-  body { font-size: 14px;}
-  h1 { font-size: 24px;}
+  body { font-size: 12px;}
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
+  h1 {
 
-  .footer-text {
+    font-size: 50px;
+    margin-right:180px;
 
-    font-size:12px;
-    margin: 60px 20px 0px 0px;
-    line-height: 20px;
-    display:inline-block;
-    font-weight:300;
+  }
+
+  h2{
+    font-size: 15px;
+    margin-left:80px;
+  }
+  .social-links{
+
+    margin:0;
+    margin-top:80px;
+    margin-left:5px;
+  }
+  .footer-nav {
+    font-size:15px;
+    float:right;
+    margin-right:210px;
+
+  }
+
+  .icon-circle{
+    border-radius:50%;
+    width:70px;
+    height:70px;
+    padding:4px;
+    margin-left:100px;
+
+  }
+  .row,
+  .hero-text-box { padding: 0 4%; }
+  .col {
+      margin: 0 0 4% 0;
   }
 
 }
 
+
 /* small phones to small tablets: from 481px to 767px  */
 @media only screen and (max-width:767px){
-  body { font-size: 14px;}
+  body { font-size: 14px;
+  margin-right:20px}
   h1 {
 
     font-size: 50px;
@@ -40,7 +85,6 @@
   h3{
     font-size:25px;
   }
-  body { font-size: 12px;}
   html,
   body{
     width:100%;
@@ -49,7 +93,50 @@
   h4{
     text-align:center;
   }
+
+  body { font-size: 14px;}
+  .btn:link,
+  .btn:visited {
+
+       font-size: 12px;
+       letter-spacing:1px;
+       word-spacing:7px;
+       height:45px;
+       width:150px;
+  }
+  .features-section .col  {
+          width: 33%;
+          margin: 25px 0 4% 0;
+      }
+  .featureImg {
+    width:100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+  }
+
+
+
+  .box-style{
+  height:auto;
+  margin:0;
+  padding-bottom:20px;
+  }
+
+  .footer-section {
+
+  margin: 35px 0px 0px 0px;
+  height:200px;
+
+  }
+
+  .footer-text {
+    font-size:10px;
+    font-weight:300;
+
+
+  }
   .row{padding: 9 15%;}
+
 
   .social-links{
 
@@ -59,16 +146,16 @@
   }
 
   .hand {
-    height:350px;
+    height:340px;
     width:auto;
-    margin-top:45px;
+    margin-top:55px;
   }
 
   .icon-circle{
     border-radius:50%;
-    width:65px;
-    height:65px;
-    padding:5px;
+    width:70px;
+    height:70px;
+    padding:2px;
     margin-left:60px;
 
   }
@@ -136,12 +223,17 @@
 
 
 
+/* small phones to small tablets: from 481px to 767px
+@media only screen and (max-width:767px){
+
+} */
+
 /* small phones: from 0 to 48px  */
 @media only screen and (max-width:480px){
 
   h1 {
-    font-size: 60px;
-    margin-left:20px;
+    font-size: 40px;
+    margin-left:30px;
   }
   h2{
     font-size: 15px;
@@ -154,14 +246,21 @@
     overflow-x:hidden;
   }
 
-
-  .row{padding: 9 15%;}
+  .features-section .col  {
+    width: 100%;
+    margin: 25px 0 4% 0;
+}
+.featureImg {
+width:100%;
+text-align: center;
+margin: 0px 0px 0px 0px;
+}
 
   .social-links{
 
     margin:0;
     margin-top:80px;
-    margin-left:122px;
+    margin-left:12px;
   }
 
   .hand {
@@ -169,12 +268,7 @@
     width:auto;
     display:none;
   }
-  .box-text{
-    font-size: 13px;
-    margin-left:10px;
-    text-align: center;
 
-  }
   h4{
     text-align:center;
   }
@@ -184,28 +278,22 @@
     height:65px;
     text-align:center;
     padding:5px;
-    margin-left:165px;
+    margin-left:170px;
 
   }
   .info-text{
     font-size: 13px;
-    margin-left:60px;
-    margin-top:40px;
-    margin-bottom:0px;
   }
   .send-email{
-    float:left;
-    width:66px;
-    margin-right:40px;
+    width:58px;
 
   }
   .email-input{
     margin-left:60px;
-
   }
 
   #email{
-    width:200px;
+    width:250px;
   }
   .video-img{
     height:200px;
@@ -222,8 +310,8 @@
   .social-links-get-in-touch{
     text-align:center;
     display:inline-block;
-    margin-left:15px;
-    margin-right:-15px;
+    margin-left:20px;
+    margin-right:0px;
 
   }
   .footer-nav {
@@ -233,7 +321,7 @@
 
   }
 
-
+  .row,
   .hero-text-box { padding: 0 4%; }
   .col {
       width: 100%;
