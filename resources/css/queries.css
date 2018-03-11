@@ -1,19 +1,32 @@
-/* big tablet to 1200px (width smaller than the 1140 row) */
-@media only screen and (max-width:1200px){
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+.footer-nav {
+  font-size:15px;
+  float:left;
+  margin-left:-220px;
 
+
+}
+/* big tablet to 1200px (width smaller than the 1140 row) */
+
+@media only screen and (max-width:1200px){
+  html,
+  body{
+    width:100%;
+    overflow-x:hidden;
+  }
   .footer-nav {
-    font-size:11px;
-    float:right;
-    margin-right:180px;
+    font-size:15px;
+    float:left;
+    margin-left:-220px;
+
 
   }
 
-  .row,
-  .hero-text-box { padding: 0 4%; }
-
 
   section { padding: 25px 0px; }
-
 
 }
 
@@ -93,6 +106,53 @@
   h4{
     text-align:center;
   }
+
+  .mobile-icon-link{
+    display:inline-block;
+   }
+   .main-nav{
+    float:left;
+    display: none;
+  }
+
+  .main-nav li {
+    display:block;
+    margin-top:10px;
+    margin-left:35px;
+    font-size:110%;
+
+  }
+  .main-nav li a:link,
+   .main-nav li a:visited {
+
+     display:block;
+     border:0;
+     padding:2px 0;
+   }
+
+   .sticky .main-nav {
+
+       float:left;
+   }
+
+
+   .sticky .main-nav li {
+     display:block;
+     margin-top:10px;
+     margin-left:35px;
+     font-size:110%;
+
+   }
+
+   .sticky .nav-li > a {
+     position: relative;
+     color: #555;
+     text-decoration: none;
+     padding:16px 0;
+     text-transform:uppercase;
+     font-weight:400;
+   }
+
 
   body { font-size: 14px;}
   .btn:link,

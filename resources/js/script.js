@@ -12,7 +12,7 @@ $(document).ready(function() {
         slidesToShow: 5,
         slidesToScroll: 5,
         autoplay:true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 2000,
         slidesToShow: 10,
         responsive: [
     {
@@ -47,6 +47,8 @@ $(document).ready(function() {
 });
 
 
+
+
 /*
 animations on scroll
 
@@ -64,5 +66,38 @@ $('.js--wp-1').waypoint(function(direction) {
 });
 
 */
+
+$('.js--features').waypoint(function(direction) {
+  if(direction == "down"){
+
+    $('nav').addClass('sticky');
+
+  } else {
+
+    $('nav').removeClass('sticky');
+  }
+
+});
+
+$('.js-nav-icon').click(function(){
+
+    var nav = $('.js-main-nav');
+    var icon = $('.js-nav-icon i');
+
+    nav.slideToggle(200);
+
+    if (icon.hasClass('ion-navicon')){
+
+      icon.addClass('ion-ios-close-outline');
+      icon.removeClass('ion-navicon');
+
+    } else {
+
+      icon.addClass('ion-navicon');
+      icon.removeClass('ion-ios-close-outline');
+
+    }
+});
+
 
 });
