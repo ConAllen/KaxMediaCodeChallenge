@@ -1,6 +1,5 @@
 body{
   width:100%;
-  overflow-x:hidden;
 }
 .footer-nav {
   font-size:15px;
@@ -9,13 +8,14 @@ body{
 
 
 }
+
+h1{font-size:50px}
 /* big tablet to 1200px (width smaller than the 1140 row) */
 
 @media only screen and (max-width:1200px){
   html,
   body{
     width:100%;
-    overflow-x:hidden;
   }
   .footer-nav {
     font-size:15px;
@@ -24,6 +24,7 @@ body{
 
 
   }
+
 
 
   section { padding: 25px 0px; }
@@ -38,11 +39,10 @@ body{
   html,
   body{
     width:100%;
-    overflow-x:hidden;
   }
   h1 {
 
-    font-size: 50px;
+    font-size:50px;
     margin-right:180px;
 
   }
@@ -86,8 +86,8 @@ body{
   body { font-size: 14px;
   margin-right:20px}
   h1 {
+    font-size:50px;
 
-    font-size: 50px;
     margin-right:108px;
 
   }
@@ -106,6 +106,7 @@ body{
   h4{
     text-align:center;
   }
+  section { padding: 25px 25px; }
 
   .mobile-icon-link{
     display:inline-block;
@@ -154,7 +155,6 @@ body{
    }
 
 
-  body { font-size: 14px;}
   .btn:link,
   .btn:visited {
 
@@ -164,6 +164,8 @@ body{
        height:45px;
        width:150px;
   }
+
+
   .features-section .col  {
           width: 33%;
           margin: 25px 0 4% 0;
@@ -171,15 +173,13 @@ body{
   .featureImg {
     width:100%;
     text-align: center;
-    margin: 0px 0px 0px 0px;
   }
 
-
-
   .box-style{
-  height:auto;
-  margin:0;
-  padding-bottom:20px;
+    height:auto;
+    margin:0;
+    padding-bottom:20px;
+    text-align:center;
   }
 
   .footer-section {
@@ -211,14 +211,13 @@ body{
     margin-top:55px;
   }
 
-  .icon-circle{
-    border-radius:50%;
-    width:70px;
-    height:70px;
-    padding:2px;
-    margin-left:60px;
+  .box-style{
+    padding:30px 15px;
+    font-size:100%;
 
   }
+
+
   .box-text{
     font-size: 13px;
     margin-left:10px;
@@ -237,48 +236,58 @@ body{
   }
 
   .send-email{
-    float:left;
-    width:80px;
-    margin-right:40px;
+    width:58px;
+    margin-top:100px;
+
+
+  }
+  .field-email-box{
     margin:0;
   }
   .email-input{
-    margin-left:150px;
-    margin-top:0;
+    margin-left:60px;
   }
 
   #email{
-    width:300px;
+    width:250px;
+    margin-top:100px;
   }
   .video-img{
     height:250px;
     width:auto;
-    margin:0;
-    margin-top:10px;
-    margin-left:150px;
-
+    margin:10px 90px 0 20px;
 }
 
-  .testimonial-text{
+.testimonial-text{
     font-size:14px
   }
-  .social-links-get-in-touch{
+.social-links-get-in-touch{
     display:inline-block;
-    margin-left:130px;
+    margin-left:0px;
   }
   .footer-nav {
-    font-size:14px;
+    font-size:11px;
     float:right;
-    margin-right:210px;
+    margin-right:40px;
 
   }
-  .hero-text-box { padding: 0 4%; }
-  .col {
-      width: 100%;
-      margin: 0 0 4% 0;
-  }
-  section { padding: 25px 25px; }
 
+
+.hand {
+    height:200px;
+    width:auto;
+    display:none;
+  }
+.features-section .col  {
+    width: 100%;
+    margin: 25px 0 4% 0;
+}
+.information-section .col  {
+  width: 100%;
+  margin: 25px 0 4% 0;
+}
+.row-feature,
+.hero-text-box { padding: 0 1%; }
 }
 
 
@@ -303,17 +312,16 @@ body{
   html,
   body{
     width:100%;
-    overflow-x:hidden;
   }
-
   .features-section .col  {
     width: 100%;
     margin: 25px 0 4% 0;
 }
+
 .featureImg {
-width:100%;
-text-align: center;
-margin: 0px 0px 0px 0px;
+    width:100%;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
 }
 
   .social-links{
@@ -328,39 +336,36 @@ margin: 0px 0px 0px 0px;
     width:auto;
     display:none;
   }
+  .hand-img {
+
+    display:none;
+  }
 
   h4{
     text-align:center;
   }
-  .icon-circle{
-    border-radius:50%;
-    width:65px;
-    height:65px;
-    text-align:center;
-    padding:5px;
-    margin-left:170px;
 
-  }
   .info-text{
     font-size: 13px;
   }
   .send-email{
-    width:58px;
+    width:80px;
 
   }
   .email-input{
     margin-left:60px;
   }
+  .field-email-box{
+    margin:0;
+  }
 
   #email{
-    width:250px;
+    width:200px;
   }
   .video-img{
     height:200px;
     width:auto;
-    margin:0;
-    margin-left:60px;
-    margin-top:10px;
+    margin:20px 60px;
 
 }
 
@@ -377,16 +382,28 @@ margin: 0px 0px 0px 0px;
   .footer-nav {
     font-size:11px;
     float:right;
-    margin-right:180px;
+    margin-right:50px;
 
   }
+  i.ion-gear-b,
+  i.ion-star,
+  i.ion-earth{
+  border-radius: 50%;
+  color:#fff;
+  padding:5px;
+  display:inline-block;
+  background-color:#2dcb71;
+	border-radius:50%;
+  width:70px;
+	height:70px;
+  text-align: center;
+  margin:0;
+
+}
 
   .row,
   .hero-text-box { padding: 0 4%; }
-  .col {
-      width: 100%;
-      margin: 0 0 4% 0;
-  }
+
 
   section { padding: 25px 0px; }
 
