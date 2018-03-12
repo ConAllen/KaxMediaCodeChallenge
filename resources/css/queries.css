@@ -380,11 +380,11 @@ h2{
     font-size: 13px;
   }
   .send-email{
-    width:80px;
+    width:75px;
 
   }
   .email-input{
-    margin-left:40px;
+    margin-left:47px;
   }
   .field-email-box{
     padding:5px;
@@ -394,7 +394,7 @@ h2{
     width:150px;
   }
   .video-img{
-    height:160px;
+    height:165px;
     width:auto;
     margin:20px 40px;
 
@@ -403,17 +403,10 @@ h2{
   .testimonial-text{
     font-size:15px
   }
-  .social-links-get-in-touch{
-    text-align:center;
-    display:inline-block;
-    margin-left:0px;
-    margin-right:0px;
-
-  }
-  .footer-nav {
-    font-size:11px;
+.footer-nav {
+    font-size:9px;
     float:right;
-    margin-right:50px;
+    margin-right:-2px;
 
   }
   i.ion-gear-b,
