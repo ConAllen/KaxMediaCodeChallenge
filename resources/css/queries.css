@@ -8,9 +8,19 @@ body{
 
 
 }
+.social-links{
+
+  margin-top:90px;
+  margin-left:100px;
+}
 
 h1{font-size:50px}
 /* big tablet to 1200px (width smaller than the 1140 row) */
+
+h2{
+  font-size: 15px;
+  margin-left:200px;
+}
 
 @media only screen and (max-width:1200px){
   html,
@@ -23,6 +33,17 @@ h1{font-size:50px}
     margin-left:-220px;
 
 
+  }
+  h1 {
+
+    font-size:50px;
+    margin-right:140px;
+
+  }
+
+  h2{
+    font-size: 15px;
+    margin-left:180px;
   }
 
 
@@ -48,14 +69,13 @@ h1{font-size:50px}
   }
 
   h2{
-    font-size: 15px;
-    margin-left:80px;
+    font-size: 12px;
+    margin-left:90px;
+    padding:0;
   }
   .social-links{
 
-    margin:0;
-    margin-top:80px;
-    margin-left:5px;
+    margin-left:70px;
   }
   .footer-nav {
     font-size:15px;
@@ -84,7 +104,11 @@ h1{font-size:50px}
   .col {
       margin: 0 0 4% 0;
   }
-
+  .hand {
+    height:340px;
+    width:auto;
+    margin-top:55px;
+  }
 }
 
 
@@ -100,7 +124,7 @@ h1{font-size:50px}
   }
   h2{
     font-size: 15px;
-    margin-left:40px;
+    margin-left:70px;
   }
   h3{
     font-size:25px;
@@ -204,11 +228,10 @@ h1{font-size:50px}
   }
   .row{padding: 9 15%;}
 
-
   .social-links{
 
     margin:0;
-    margin-top:80px;
+    margin-top:40px;
     margin-left:5px;
   }
 
@@ -312,8 +335,8 @@ h1{font-size:50px}
     margin-left:30px;
   }
   h2{
-    font-size: 15px;
-    margin-left:40px;
+    font-size: 13px;
+    margin-left:60px;
   }
   body { font-size: 12px;}
   html,
@@ -334,9 +357,10 @@ h1{font-size:50px}
   .social-links{
 
     margin:0;
-    margin-top:80px;
-    margin-left:12px;
+    margin-top:40px;
+    margin-left:10px;
   }
+
 
   .hand {
     height:200px;
