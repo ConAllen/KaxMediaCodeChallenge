@@ -64,14 +64,21 @@ h1{font-size:50px}
 
   }
 
-  .icon-circle{
-    border-radius:50%;
-    width:70px;
-    height:70px;
-    padding:4px;
-    margin-left:100px;
+  i.ion-gear-b,
+  i.ion-star,
+  i.ion-earth{
+  border-radius: 50%;
+  color:#fff;
+  padding:5px;
+  display:inline-block;
+  background-color:#2dcb71;
+	border-radius:50%;
+  width:80px;
+	height:80px;
+  text-align: center;
+  margin:0;
 
-  }
+}
   .row,
   .hero-text-box { padding: 0 4%; }
   .col {
